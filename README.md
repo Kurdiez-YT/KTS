@@ -1,0 +1,2 @@
+# KTS
+Kurdiez Trading System
