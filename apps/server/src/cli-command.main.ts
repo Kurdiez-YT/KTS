@@ -1,6 +1,6 @@
 import { LogLevel } from '@nestjs/common';
 import { CommandFactory } from 'nest-commander';
-import { AppModule } from '@src/app.module';
+import { AppModule } from '@src/App.module';
 
 async function bootstrap() {
   const logLevels = (process.env.LOG_LEVELS?.split(',') || [

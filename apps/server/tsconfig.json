@@ -20,7 +20,8 @@
     "strict": true,
     "paths": {
       "@src/*": ["src/*"]
-    }
+    },
+    "resolveJsonModule": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
