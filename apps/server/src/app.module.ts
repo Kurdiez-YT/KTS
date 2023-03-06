@@ -8,6 +8,7 @@ import { EventEmitterModule } from '@nestjs/event-emitter';
 import { MarketDataModule } from '@src/market-data/MarketData.module';
 import { ScheduleModule } from '@nestjs/schedule';
 import { EventLogModule } from '@src/event-log/EventLog.module';
+import { StrategyModule } from '@src/strategy/strategy.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import { EventLogModule } from '@src/event-log/EventLog.module';
     CliCommandModule,
     MarketDataModule,
     EventLogModule,
+    StrategyModule,
   ],
   controllers: [],
   providers: [],

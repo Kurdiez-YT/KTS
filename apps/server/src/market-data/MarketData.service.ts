@@ -29,7 +29,7 @@ export class MarketDataService {
   }
 
   @OnEvent(SubscribeMarketDataEvent.name)
-  onSubscribeMarketDataEvent(event: SubscribeMarketDataEvent) {
+  onSubscribeMarketData(event: SubscribeMarketDataEvent) {
     const marketDataId = `${event.symbol}||${event.period}`;
     this._subscribedMarketData[marketDataId] = {
       symbol: event.symbol,
